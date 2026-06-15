@@ -1,74 +1,123 @@
-❤️‍🔥
-ウソ発見器 / Heartbeat Lie Detector
-心拍数の変化でウソを見抜くパーティーゲーム
-A party lie-detector game powered by your heart rate
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ウソ発見器 - サポート / Heartbeat Lie Detector - Support</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "Hiragino Sans", "Helvetica Neue", Arial, sans-serif;
+    background: linear-gradient(180deg, #181333 0%, #0a0a0c 60%);
+    color: #f2f2f4;
+    line-height: 1.75;
+    min-height: 100vh;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 48px 22px 80px; }
+  .hero { text-align: center; margin-bottom: 48px; }
+  .heart { font-size: 64px; }
+  h1 { font-size: 30px; margin: 12px 0 4px; }
+  h1 .accent { color: #eb2d37; }
+  .tagline { color: #9a9aa2; font-size: 15px; margin: 0; }
+  h2 {
+    font-size: 21px; margin: 44px 0 14px; padding-bottom: 8px;
+    border-bottom: 1px solid #2c2c34;
+  }
+  h3 { font-size: 16px; margin: 24px 0 6px; color: #ffd24a; }
+  a { color: #6aa0ff; }
+  code, .mail {
+    background: #ffffff14; padding: 3px 9px; border-radius: 7px;
+    font-family: ui-monospace, Menlo, monospace; font-size: 15px;
+  }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  .card {
+    background: #ffffff0a; border: 1px solid #ffffff14;
+    border-radius: 16px; padding: 20px 24px; margin: 16px 0;
+  }
+  .lang { color: #8a8a92; font-size: 13.5px; }
+  .updated { color: #777; font-size: 13px; }
+  footer { text-align: center; color: #666; font-size: 13px; margin-top: 64px; }
+  .pill {
+    display: inline-block; background: #eb2d3722; color: #ff8a90;
+    padding: 2px 12px; border-radius: 999px; font-size: 12.5px; margin-bottom: 8px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
 
-📮 サポート / Support
-ご質問・不具合の報告・ご要望は、以下のメールまでお気軽にご連絡ください。
+  <div class="hero">
+    <div class="heart">❤️‍🔥</div>
+    <h1>ウソ発見器 <span class="accent">/ Heartbeat Lie Detector</span></h1>
+    <p class="tagline">心拍数の変化でウソを見抜くパーティーゲーム<br>A party lie-detector game powered by your heart rate</p>
+  </div>
 
-For questions, bug reports, or feature requests, please contact us by email.
+  <h2>📮 サポート / Support</h2>
+  <div class="card">
+    <p>ご質問・不具合の報告・ご要望は、以下のメールまでお気軽にご連絡ください。</p>
+    <p class="lang">For questions, bug reports, or feature requests, please contact us by email.</p>
+    <p>📧 <span class="mail">deveryota@icloud.com</span></p>
+    <p class="lang">通常2〜3営業日以内に返信いたします。 / We usually reply within 2–3 business days.</p>
+  </div>
 
-📧 deveryota@icloud.com
+  <h2>❓ よくある質問 / FAQ</h2>
 
-通常2〜3営業日以内に返信いたします。 / We usually reply within 2–3 business days.
+  <h3>心拍数が表示されません / Heart rate is not showing</h3>
+  <p>Apple Watchを装着し、HealthKit（ヘルスケア）へのアクセスを許可してください。iPhoneと一緒に遊ぶ場合は、両方が近くにありBluetoothがオンになっていることを確認してください。</p>
+  <p class="lang">Please wear your Apple Watch and grant HealthKit access. When playing with iPhone, make sure both devices are nearby with Bluetooth on.</p>
 
-❓ よくある質問 / FAQ
-心拍数が表示されません / Heart rate is not showing
-Apple Watchを装着し、HealthKit（ヘルスケア）へのアクセスを許可してください。iPhoneと一緒に遊ぶ場合は、両方が近くにありBluetoothがオンになっていることを確認してください。
+  <h3>Apple Watch単体で遊べますか？ / Can I play on Apple Watch alone?</h3>
+  <p>はい。Apple WatchだけでもiPhoneなしでプレイできます。Watchアプリを開いて「スタート」を押してください。</p>
+  <p class="lang">Yes. You can play entirely on Apple Watch without an iPhone. Open the Watch app and tap "Start".</p>
 
-Please wear your Apple Watch and grant HealthKit access. When playing with iPhone, make sure both devices are nearby with Bluetooth on.
+  <h3>質問を追加できますか？ / Can I add my own questions?</h3>
+  <p>iPhoneアプリの「設定 → 質問を管理する」から、自分だけのオリジナル質問を追加・削除できます。追加した質問はApple Watchにも同期されます。</p>
+  <p class="lang">In the iPhone app, go to "Settings → Manage Questions" to add or remove your own custom questions. They sync to your Apple Watch.</p>
 
-Apple Watch単体で遊べますか？ / Can I play on Apple Watch alone?
-はい。Apple WatchだけでもiPhoneなしでプレイできます。Watchアプリを開いて「スタート」を押してください。
+  <h3>広告を消したい / How do I remove ads?</h3>
+  <p>「設定 → 広告を非表示にする」から月額サブスクリプションにご登録いただくと、すべての広告が非表示になります。機種変更時は「購入を復元する」で引き継げます。</p>
+  <p class="lang">Subscribe via "Settings → Remove Ads" to hide all ads. Use "Restore Purchase" when switching devices.</p>
 
-Yes. You can play entirely on Apple Watch without an iPhone. Open the Watch app and tap “Start”.
+  <h3>判定は正確ですか？ / Is the result accurate?</h3>
+  <p>本アプリは<strong>エンターテインメント目的</strong>のゲームです。実際の、または医療的なウソ発見の結果を示すものではありません。</p>
+  <p class="lang">This app is a game for <strong>entertainment purposes only</strong>. It does not provide real or medical lie-detection results.</p>
 
-質問を追加できますか？ / Can I add my own questions?
-iPhoneアプリの「設定 → 質問を管理する」から、自分だけのオリジナル質問を追加・削除できます。追加した質問はApple Watchにも同期されます。
+  <h2>🔒 プライバシーポリシー / Privacy Policy</h2>
+  <p class="updated">最終更新日 / Last Updated: 2026-06-15</p>
 
-In the iPhone app, go to “Settings → Manage Questions” to add or remove your own custom questions. They sync to your Apple Watch.
+  <h3>端末内に保存されるデータ / Data Stored On Your Device</h3>
+  <p>以下のデータは<strong>お使いの端末内にのみ</strong>保存され、当方のサーバーに送信されることはありません。</p>
+  <ul>
+    <li>追加したカスタム質問 / Your custom questions</li>
+    <li>アプリの設定 / App settings</li>
+  </ul>
+  <p class="lang">The data above is stored <strong>only on your device</strong> and is never sent to our servers.</p>
 
-広告を消したい / How do I remove ads?
-「設定 → 広告を非表示にする」から月額サブスクリプションにご登録いただくと、すべての広告が非表示になります。機種変更時は「購入を復元する」で引き継げます。
+  <h3>HealthKit（心拍数） / HealthKit (Heart Rate)</h3>
+  <p>心拍数はゲームの判定のためにリアルタイムで読み取るのみで、<strong>保存・外部送信・広告利用は一切行いません</strong>。第三者と共有することもありません。</p>
+  <p class="lang">Heart rate is read in real time solely to run the game. It is <strong>never stored, transmitted, used for advertising, or shared</strong> with third parties.</p>
 
-Subscribe via “Settings → Remove Ads” to hide all ads. Use “Restore Purchase” when switching devices.
+  <h3>広告 / Advertising</h3>
+  <p>本アプリは <strong>Google AdMob</strong>（Google LLC）を利用して広告を表示します。AdMobは広告配信のため、デバイス識別子などの情報を収集する場合があります。詳細はGoogleのポリシーをご確認ください。広告なしサブスクリプション登録中は広告および関連するデータ収集は行われません。</p>
+  <p class="lang">This app uses <strong>Google AdMob</strong> (Google LLC) to display ads. AdMob may collect information such as device identifiers to serve ads. When subscribed to the ad-free plan, no ads or related data collection occur.</p>
+  <p><a href="https://policies.google.com/privacy">Google Privacy Policy</a> ・ <a href="https://support.google.com/admob/answer/6128543">AdMob &amp; Privacy</a></p>
 
-判定は正確ですか？ / Is the result accurate?
-本アプリはエンターテインメント目的のゲームです。実際の、または医療的なウソ発見の結果を示すものではありません。
+  <h3>サブスクリプション / Subscriptions</h3>
+  <p>課金処理はすべて <strong>Apple（StoreKit）</strong> が行います。当方がクレジットカード情報などの決済情報を受け取ることはありません。</p>
+  <p class="lang">All payments are processed by <strong>Apple (StoreKit)</strong>. We never receive your payment details.</p>
 
-This app is a game for entertainment purposes only. It does not provide real or medical lie-detection results.
+  <h3>お問い合わせ / Contact</h3>
+  <p>プライバシーに関するご質問は <span class="mail">deveryota@icloud.com</span> までご連絡ください。</p>
+  <p class="lang">For privacy-related inquiries, contact <span class="mail">deveryota@icloud.com</span>.</p>
 
-🔒 プライバシーポリシー / Privacy Policy
-最終更新日 / Last Updated: 2026-06-15
+  <footer>
+    © 2026 Ryota Muraura. All rights reserved.<br>
+    <a href="./">← サポートトップへ / Back to support home</a>
+  </footer>
 
-端末内に保存されるデータ / Data Stored On Your Device
-以下のデータはお使いの端末内にのみ保存され、当方のサーバーに送信されることはありません。
-
-追加したカスタム質問 / Your custom questions
-アプリの設定 / App settings
-The data above is stored only on your device and is never sent to our servers.
-
-HealthKit（心拍数） / HealthKit (Heart Rate)
-心拍数はゲームの判定のためにリアルタイムで読み取るのみで、保存・外部送信・広告利用は一切行いません。第三者と共有することもありません。
-
-Heart rate is read in real time solely to run the game. It is never stored, transmitted, used for advertising, or shared with third parties.
-
-広告 / Advertising
-本アプリは Google AdMob（Google LLC）を利用して広告を表示します。AdMobは広告配信のため、デバイス識別子などの情報を収集する場合があります。詳細はGoogleのポリシーをご確認ください。広告なしサブスクリプション登録中は広告および関連するデータ収集は行われません。
-
-This app uses Google AdMob (Google LLC) to display ads. AdMob may collect information such as device identifiers to serve ads. When subscribed to the ad-free plan, no ads or related data collection occur.
-
-Google Privacy Policy ・ AdMob & Privacy
-
-サブスクリプション / Subscriptions
-課金処理はすべて Apple（StoreKit） が行います。当方がクレジットカード情報などの決済情報を受け取ることはありません。
-
-All payments are processed by Apple (StoreKit). We never receive your payment details.
-
-お問い合わせ / Contact
-プライバシーに関するご質問は deveryota@icloud.com までご連絡ください。
-
-For privacy-related inquiries, contact deveryota@icloud.com.
-
-© 2026 Ryota Muraura. All rights reserved.
-← サポートトップへ / Back to support home
+</div>
+</body>
+</html>
